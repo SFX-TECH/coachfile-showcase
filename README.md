@@ -12,6 +12,11 @@
 
 ![CoachFile](assets/hero.png)
 
+## Demo
+<video src="https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/demo.mp4" poster="https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/demo-poster.webp" controls muted loop width="720"></video>
+
+*Player not loading on your device? [Watch the demo](https://github.com/SFX-TECH/coachfile-showcase/blob/main/assets/demo.mp4).*
+
 ---
 
 ## The problem
@@ -25,16 +30,14 @@ A coach's most valuable asset is what they remember about each client, and that 
 ## The principle: organize, don't invent
 The AI **structures what a coach actually wrote.** It never fabricates a name, a date, or a detail. Every extracted field carries a **source citation**, sensitive content is **flagged for human review**, and nothing becomes a record until the coach **approves** it. For a tool that holds real information about real relationships, faithfulness is the whole product.
 
-## How it's built
+## How it works
 ```mermaid
 flowchart LR
-    UP["Coach uploads notes<br/>.docx · .pdf · .txt"] --> R2[("Cloudflare R2")]
-    R2 --> Q[["Extraction queue<br/>Cloudflare Worker"]]
-    Q --> EX["Claude extracts client + sessions<br/>with source citations"]
-    EX --> RV["Review queue<br/>source + draft, side by side"]
-    RV -->|coach approves| DB[("Encrypted client record<br/>Supabase + Row-Level Security")]
-    EX -. flags .-> SENS["Sensitive content<br/>held for review"]
+    UP["Upload your notes<br/>Word · PDF · text"] --> EX["AI extracts a draft<br/>every field cites its source"]
+    EX --> RV["You review side by side<br/>and approve"]
+    RV --> DB["Organized, encrypted<br/>client memory"]
     DB --> LOOPS["Weekly loops<br/>prep · capture · follow-up"]
+    EX -. flags .-> SENS["Sensitive content<br/>held for your review"]
 ```
 
 ## Security
