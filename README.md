@@ -8,7 +8,7 @@
 ![Stack](https://img.shields.io/badge/stack-Next.js%20%C2%B7%20Supabase%20%C2%B7%20Cloudflare-000000)
 ![License](https://img.shields.io/badge/license-proprietary-8a8a8a)
 
-**Live:** [coachfile.app](https://coachfile.app)  ·  **Source is private by design** — public showcase only.
+**Live:** [coachfile.app](https://coachfile.app)  ·  **Source is private by design**: public showcase only.
 
 ![CoachFile](assets/hero.png)
 
@@ -20,7 +20,7 @@
 ---
 
 ## The problem
-A coach's most valuable asset is what they remember about each client, and that memory is scattered across Word docs, Google Docs, and unstructured folders. The real incumbent isn't another app — it's "files + folders + memory," and it doesn't scale. So coaches walk into sessions cold.
+A coach's most valuable asset is what they remember about each client, and that memory is scattered across Word docs, Google Docs, and unstructured folders. The real incumbent isn't another app, it's "files + folders + memory," and it doesn't scale. So coaches walk into sessions cold.
 
 ## What it does
 - **AI migration (the wedge).** Drop in your existing notes (Word, PDF, or text files). CoachFile extracts an organized client record, with every field traced back to its source line.
@@ -52,7 +52,7 @@ flowchart LR
 | Data | Supabase Postgres + Row-Level Security |
 | Auth | Clerk |
 | Edge | Cloudflare Workers (OpenNext) · R2 · Queues · KV |
-| AI | Claude (Anthropic) — source-cited extraction |
+| AI | Claude (Anthropic), source-cited extraction |
 | Payments / Email / Observability | Stripe · Resend · Sentry |
 
 ## Status
