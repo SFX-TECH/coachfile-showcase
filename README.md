@@ -41,11 +41,15 @@ flowchart LR
 ```
 
 ## Security
+> **In plain terms:** Client information is scrambled so it cannot be read if it is ever stolen, and each coach can only see their own clients, never anyone else's.
+
 - **Encrypted at rest** (AES-256), with **column-level encryption** on the most sensitive fields (client names, notes, extracted data).
 - **Row-Level Security** enforces strict per-coach tenant isolation, verified on every change.
 - **Two-tier model:** no standing engineer access to client data; clinical / emergency use is out of scope by design.
 
 ## Tech
+> **In plain terms:** These are the building blocks the software is made of. You do not need to know any of them to use CoachFile; they are listed here for other builders.
+
 | Layer | Stack |
 |---|---|
 | App | Next.js 15 (App Router, TypeScript) |
