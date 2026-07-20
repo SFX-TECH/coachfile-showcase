@@ -2,10 +2,11 @@
 
 > Never walk into a client session cold again. CoachFile is a private client-memory system that turns a coach's scattered notes into organized, searchable client timelines, session prep, and follow-up discipline.
 
-![Status](https://img.shields.io/badge/status-live-2ea44f)
+[![Live](https://img.shields.io/badge/live-coachfile.app-2ea44f)](https://coachfile.app)
 ![Platform](https://img.shields.io/badge/platform-web-0a66c2)
 ![AI](https://img.shields.io/badge/AI-Claude%20(Anthropic)-7a5cff)
 ![Stack](https://img.shields.io/badge/stack-Next.js%20%C2%B7%20Supabase%20%C2%B7%20Cloudflare-000000)
+![Security](https://img.shields.io/badge/security-AES--256%20%C2%B7%20RLS-2ea44f)
 ![License](https://img.shields.io/badge/license-proprietary-8a8a8a)
 
 **Live:** [coachfile.app](https://coachfile.app)  ·  **Source is private by design**: public showcase only.
