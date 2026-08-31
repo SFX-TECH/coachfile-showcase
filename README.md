@@ -15,9 +15,29 @@
 ![CoachFile](assets/hero.png)
 
 ## Demo
+
+[![Watch the CoachFile product tour](assets/hero-loop-poster.webp)](https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/hero-loop.mp4)
+
+*A short, captioned product tour. GitHub does not autoplay committed video, so the image above links to the clip.*
+
 <video src="https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/demo.mp4" poster="https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/demo-poster.webp" controls muted loop width="720"></video>
 
-*Player not loading on your device? [Watch the demo](https://github.com/SFX-TECH/coachfile-showcase/blob/main/assets/demo.mp4).*
+*Full setup walkthrough. Player not loading on your device? [Watch the demo](https://github.com/SFX-TECH/coachfile-showcase/blob/main/assets/demo.mp4).*
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="33%"><img src="assets/gallery-client-roster.webp" alt="The client roster, grouped by state with tier and status filters"></td>
+    <td width="33%"><img src="assets/gallery-client-profile.webp" alt="A single client record with structured fields and full session history"></td>
+    <td width="33%"><img src="assets/gallery-insights.webp" alt="The insights dashboard showing active clients, sessions per client, and tier distribution"></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Client roster</em></td>
+    <td align="center"><em>Client record</em></td>
+    <td align="center"><em>Insights</em></td>
+  </tr>
+</table>
 
 ---
 
@@ -30,11 +50,22 @@ A coach's most valuable asset is what they remember about each client, and that 
 - **Voice to draft.** Speak a note after a session and get a structured draft back; the raw transcript is used to build that draft and never flows into product analytics.
 - **Session prep + follow-up loops.** Weekly habits that keep coaches close to their clients: a prep brief before a session, a capture nudge after one, and a follow-up reminder when a client goes quiet.
 
-<video src="https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/hero-migration.mp4" controls muted loop width="720"></video>
+<img src="assets/gallery-log-session.webp" alt="Capturing a coaching session in CoachFile: pick a client, set the date, and add bullet notes" width="760">
 
-*The migration wedge: messy notes in, an organized, source-cited client record out.*
+*Voice to draft: capture a session in seconds, then get a structured draft back.*
+
+<video src="https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/hero-migration.mp4" poster="https://github.com/SFX-TECH/coachfile-showcase/raw/main/assets/hero-migration-poster.webp" controls muted loop width="720"></video>
+
+*Player not loading on your device? [Watch the migration clip](https://github.com/SFX-TECH/coachfile-showcase/blob/main/assets/hero-migration.mp4).*
+
+<img src="assets/preview-migration-review.webp" alt="Reviewing an AI-extracted client record side by side with the original note, where every field carries a confidence score and cites its source" width="820">
+
+*The migration wedge: messy notes in, an organized, source-cited client record out. You review every field side by side with the source before anything is saved.*
 
 ## The principle: organize, don't invent
+
+<img src="assets/preview-import-review-tall.webp" alt="An extracted draft where each field carries a confidence score and links back to the exact line in the source note, with an Approve and add action" width="340" align="right">
+
 The AI **structures what a coach actually wrote.** It treats the uploaded document as **untrusted input**, never a set of instructions, and it never fabricates a name, a date, or a detail.
 
 - **Per-field confidence.** Every extracted field carries a confidence score, validated to a 0 to 1 range.
