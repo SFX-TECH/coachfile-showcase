@@ -3,14 +3,15 @@
 > Never walk into a client session cold again. CoachFile is a private client-memory system that turns a coach's scattered notes into organized, searchable client timelines, session prep, and follow-up discipline.
 
 [![Live](https://img.shields.io/badge/live-coachfile.app-2ea44f)](https://coachfile.app)
-![Stage](https://img.shields.io/badge/stage-private%20beta-0a66c2)
+![Stage](https://img.shields.io/badge/stage-public%20beta%20%C2%B7%20pre--revenue-0a66c2)
+![Workspaces](https://img.shields.io/badge/workspaces-19%20practitioner-0a66c2)
 ![Tests](https://img.shields.io/badge/tests-1%2C200%2B%20automated-2ea44f)
 ![AI](https://img.shields.io/badge/AI-Claude%20(Anthropic)-7a5cff)
 ![Stack](https://img.shields.io/badge/stack-Next.js%20%C2%B7%20Supabase%20%C2%B7%20Cloudflare-000000)
 ![Security](https://img.shields.io/badge/security-AES--256%20%C2%B7%20RLS%20live%20in%20CI-2ea44f)
 ![License](https://img.shields.io/badge/license-proprietary-8a8a8a)
 
-**Live multi-tenant SaaS, private beta:** [coachfile.app](https://coachfile.app)  ·  **Source is private by design**: public showcase only.
+**Live multi-tenant SaaS, public pre-revenue beta:** [coachfile.app](https://coachfile.app)  ·  **Source is private by design**: public showcase only.
 
 ![CoachFile](assets/hero.png)
 
@@ -126,7 +127,7 @@ flowchart TB
 - The **cite-or-refuse extraction contract** above (confidence bounds, char-span citations, null instead of fabrication) is covered by its own dedicated test cases.
 - The **prompt-injection refusal** is a named regression test, so the defense cannot silently rot.
 
-*This is a private-beta product under active development; not every test is green at every moment, and that honesty is the point of measuring.*
+*This is a beta product under active development; not every test is green at every moment, and that honesty is the point of measuring.*
 
 ## Security
 > **In plain terms:** Client information is scrambled so it cannot be read if it is ever stolen, and each coach can only see their own clients, never anyone else's.
@@ -150,7 +151,7 @@ flowchart TB
 | Payments / Email / Observability | Stripe · Resend · Sentry |
 
 ## Status
-Live multi-tenant SaaS in **private beta** at **[coachfile.app](https://coachfile.app)**. Co-founded and built in partnership with a bestselling author and coach. Shipped: the AI migration tool, client + session management, custom fields, voice to draft, billing, the three retention loops, column-level encryption, and the live-database RLS isolation suite in CI.
+Publicly available **pre-revenue beta** at **[coachfile.app](https://coachfile.app)**, with **19 practitioner workspaces** on the platform. Co-founded and built in partnership with a bestselling author and coach. Shipped: the AI migration tool, client + session management, custom fields, voice to draft, billing, the three retention loops, column-level encryption, and the live-database RLS isolation suite in CI. Production authentication remediation and beta validation are in progress.
 
 ---
 
