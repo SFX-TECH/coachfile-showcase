@@ -4,7 +4,6 @@
 
 [![Live](https://img.shields.io/badge/live-coachfile.app-2ea44f)](https://coachfile.app)
 ![Stage](https://img.shields.io/badge/stage-public%20beta%20%C2%B7%20pre--revenue-0a66c2)
-![Workspaces](https://img.shields.io/badge/workspaces-19%20practitioner-0a66c2)
 ![Tests](https://img.shields.io/badge/tests-1%2C200%2B%20automated-2ea44f)
 ![AI](https://img.shields.io/badge/AI-Claude%20(Anthropic)-7a5cff)
 ![Stack](https://img.shields.io/badge/stack-Next.js%20%C2%B7%20Supabase%20%C2%B7%20Cloudflare-000000)
@@ -151,7 +150,7 @@ flowchart TB
 | Payments / Email / Observability | Stripe · Resend · Sentry |
 
 ## Status
-Publicly available **pre-revenue beta** at **[coachfile.app](https://coachfile.app)**, with **19 practitioner workspaces** on the platform. Co-founded and built in partnership with a bestselling author and coach. Shipped: the AI migration tool, client + session management, custom fields, voice to draft, billing, the three retention loops, column-level encryption, and the live-database RLS isolation suite in CI. Production authentication remediation and beta validation are in progress.
+Publicly available **pre-revenue beta** at **[coachfile.app](https://coachfile.app)**. Co-founded and built in partnership with a bestselling author and coach. Shipped: the AI migration tool, client + session management, custom fields, voice to draft, billing, the three retention loops, column-level encryption, and the live-database RLS isolation suite in CI. Production authentication remediation and beta validation are in progress.
 
 ---
 
