@@ -154,6 +154,4 @@ Publicly available **pre-revenue beta** at **[coachfile.app](https://coachfile.a
 
 ---
 
-Built by **Jesse Jolly** · [SFX Tech Innovation](https://sfxtechinnovation.com) · [LinkedIn](https://linkedin.com/in/jessegjolly)
-
 *Source code is private and proprietary. This repository showcases the product and its architecture only.*
